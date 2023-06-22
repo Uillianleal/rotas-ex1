@@ -2,18 +2,18 @@ import { Link } from "react-router-dom";
 import Button from "../../../componets/Button";
 import Card from "../../../componets/Card";
 
-function Promotion() {
+function Subscription() {
   return (
     <main>
       <section>
         <div className="container">
           <div className="mb30 mt30">
-            <Card title="Pagina de promoção" />
+            <Card title="Pagina de inscrição" />
           </div>
 
           <div className="dflex">
-            <Link to="/sub">
-              <Button text="Quero participar" />
+            <Link to="/promotion">
+              <Button text="Ver promoção" />
             </Link>
           </div>
         </div>
@@ -22,4 +22,4 @@ function Promotion() {
   );
 }
 
-export default Promotion;
+export default Subscription;
