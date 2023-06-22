@@ -1,8 +1,10 @@
+import "./styles.css";
+
 function Header() {
   return (
     <header>
-      <div>
-        <h1>Meu site</h1>
+      <div className="container">
+        <h1 className="site-name">Meu site</h1>
       </div>
     </header>
   );
